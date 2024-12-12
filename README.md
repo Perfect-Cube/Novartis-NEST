@@ -1,4 +1,8 @@
 # Novartis-NEST
+
+![Untitled](https://github.com/user-attachments/assets/78ea6b00-2eea-42c4-86d9-109be0e7cd29)
+
+
 Knowledge ramp up on clinical trials & protocol
 A clinical trial is a research study conducted to evaluate the safety, and efficacy of medical interventions such as drugs, devices, or
 treatments on humans.
