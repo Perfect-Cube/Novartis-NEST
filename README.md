@@ -18,3 +18,5 @@ and enrolling the right patients can significantly slow down the trial process.
 
 • Protocol Amendments: Unanticipated amendments to the protocol, often due to changes in trial design or new regulatory
 requirements, can lead to considerable delays.
+
+![novartis](https://github.com/user-attachments/assets/197b5ce2-22f9-440e-a03c-6b72f3335983)
