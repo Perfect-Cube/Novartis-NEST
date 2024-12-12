@@ -1,4 +1,9 @@
 # Novartis-NEST
+
+![1700px_Novartis_logo](https://github.com/user-attachments/assets/89edcff4-9bfe-4718-aa16-1e64454dbf10)
+
+
+
 Knowledge ramp up on clinical trials & protocol
 A clinical trial is a research study conducted to evaluate the safety, and efficacy of medical interventions such as drugs, devices, or
 treatments on humans.
@@ -13,3 +18,5 @@ and enrolling the right patients can significantly slow down the trial process.
 
 • Protocol Amendments: Unanticipated amendments to the protocol, often due to changes in trial design or new regulatory
 requirements, can lead to considerable delays.
+
+![novartis](https://github.com/user-attachments/assets/197b5ce2-22f9-440e-a03c-6b72f3335983)
