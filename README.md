@@ -1,6 +1,7 @@
 # Novartis-NEST
 
-![Untitled](https://github.com/user-attachments/assets/78ea6b00-2eea-42c4-86d9-109be0e7cd29)
+![1700px_Novartis_logo](https://github.com/user-attachments/assets/89edcff4-9bfe-4718-aa16-1e64454dbf10)
+
 
 
 Knowledge ramp up on clinical trials & protocol
