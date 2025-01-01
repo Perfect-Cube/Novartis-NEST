@@ -15,18 +15,37 @@
 
 ## **Flowchart Steps:**
 
-```mermaid
-graph TD
-    Start --> UserInput["1. User Input<br>Study Title, Primary Outcome, Secondary Outcome, Criteria"]
-    UserInput --> DataIngestion["2. Data Ingestion<br>Load raw dataset from clinicaltrials.gov"]
-    DataIngestion --> Preprocessing["3. Preprocessing<br>- Normalize text<br>- Encode structured data"]
-    Preprocessing --> FeatureEngineering["4. Feature Engineering<br>- Generate embeddings with BioBERT/ClinicalBERT<br>- Combine with structured data features"]
-    FeatureEngineering --> ModelTraining["5. Model Training<br>Train similarity models (Siamese Networks or Contrastive Learning)"]
-    ModelTraining --> QueryProcessing["6. Query Processing<br>- Embed user query<br>- Perform similarity search"]
-    QueryProcessing --> Explainability["7. Explainability Module<br>Highlight key features influencing similarity"]
-    Explainability --> ResultPresentation["8. Result Presentation<br>Display ranked clinical trials with explanations"]
-    ResultPresentation --> End
 ```
+Start
+  |
+  v
+User Input (Study Title, Primary Outcome, Secondary Outcome, Criteria)
+  |
+  v
+Data Ingestion (Load raw dataset from clinicaltrials.gov)
+  |
+  v
+Preprocessing (Normalize text, Encode structured data)
+  |
+  v
+Feature Engineering (Generate embeddings with BioBERT/ClinicalBERT, Combine with structured data features)
+  |
+  v
+Model Training (Train similarity models, e.g., Siamese Networks)
+  |
+  v
+Query Processing (Embed user query, Perform similarity search)
+  |
+  v
+Explainability Module (Highlight key features influencing similarity)
+  |
+  v
+Result Presentation (Display ranked clinical trials with explanations)
+  |
+  v
+End
+```
+
 
 ---
 
@@ -46,6 +65,33 @@ graph TD
 6. **Query Processing**: Comparing user input to dataset.
 7. **Explainability Module**: Providing interpretable results.
 8. **Result Presentation**: Displaying final output.
+
+---
+Flowchart Steps:
+
+    Start
+        1. User Input
+        Inputs Study Title, Primary Outcome, Secondary Outcome, and Criteria.
+        2. Data Ingestion
+        Loads raw dataset from clinicaltrials.gov.
+        3. Preprocessing
+            Normalize text (e.g., remove stopwords, tokenize).
+            Encode structured data (e.g., phases, conditions).
+        4. Feature Engineering
+            Generate embeddings with BioBERT/ClinicalBERT.
+            Combine with structured data features.
+        5. Model Training
+        Train similarity models (e.g., Siamese Networks or Contrastive Learning).
+        6. Query Processing
+            Embed user query.
+            Perform similarity search (e.g., cosine similarity or FAISS).
+        7. Explainability Module
+        Highlight key features influencing similarity.
+        8. Result Presentation
+        Display ranked clinical trials with explanations.
+
+    End
+
 
 ---
 
