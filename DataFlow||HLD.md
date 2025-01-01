@@ -1,3 +1,39 @@
+# Data Flow Diagram (Flowchart for Semantic Grouping of Clinical Trials)
+
+## **High-Level Components:**
+
+1. **User Input**: Query for retrieving similar clinical trials.
+2. **Data Ingestion**: Clinical trials dataset (structured and unstructured).
+3. **Preprocessing**: Cleaning and preparing data.
+4. **Feature Engineering**: Generating multi-modal embeddings.
+5. **Model Training**: Learning similarity patterns.
+6. **Query Processing**: Comparing user input to dataset.
+7. **Explainability Module**: Providing interpretable results.
+8. **Result Presentation**: Displaying final output.
+
+---
+
+## **Flowchart Steps:**
+
+```mermaid
+graph TD
+    Start --> UserInput["1. User Input<br>Study Title, Primary Outcome, Secondary Outcome, Criteria"]
+    UserInput --> DataIngestion["2. Data Ingestion<br>Load raw dataset from clinicaltrials.gov"]
+    DataIngestion --> Preprocessing["3. Preprocessing<br>- Normalize text<br>- Encode structured data"]
+    Preprocessing --> FeatureEngineering["4. Feature Engineering<br>- Generate embeddings with BioBERT/ClinicalBERT<br>- Combine with structured data features"]
+    FeatureEngineering --> ModelTraining["5. Model Training<br>Train similarity models (Siamese Networks or Contrastive Learning)"]
+    ModelTraining --> QueryProcessing["6. Query Processing<br>- Embed user query<br>- Perform similarity search"]
+    QueryProcessing --> Explainability["7. Explainability Module<br>Highlight key features influencing similarity"]
+    Explainability --> ResultPresentation["8. Result Presentation<br>Display ranked clinical trials with explanations"]
+    ResultPresentation --> End
+```
+
+---
+
+
+
+
+
 ### Data Flow Diagram (Flowchart for Semantic Grouping of Clinical Trials)
 
 #### **High-Level Components:**
