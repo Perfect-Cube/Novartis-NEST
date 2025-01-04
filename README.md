@@ -2,6 +2,7 @@
 
 ![1700px_Novartis_logo](https://github.com/user-attachments/assets/89edcff4-9bfe-4718-aa16-1e64454dbf10)
 
+![novaris_final_flowchart](https://github.com/user-attachments/assets/5ad74e95-910d-44dc-9ffd-5b60e008a763)
 
 
 Knowledge ramp up on clinical trials & protocol
